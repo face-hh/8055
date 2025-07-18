@@ -87,7 +87,6 @@ pip install --upgrade pip
 pip install onnxruntime-gpu opencv-python pillow numpy tqdm
 
 curl -L -o deploy/AnimeGANv3_Hayao_36.onnx "https://github.com/TachibanaYoshino/AnimeGANv3/releases/download/v1.1.0/AnimeGANv3_Hayao_36.onnx"
-curl -L -o inputs/vid/MVI_7326.MP4 "https://cdn.discordapp.com/attachments/1271792620800053258/1390640902736973916/MVI_7326.MP4?ex=6868fec4&is=6867ad44&hm=345928e8d44888aa1d0f913f9d95ebed57585e9754e218f664d1a727c0879478&"
 
 cd Server
 python3 animeganv3.py
