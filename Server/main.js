@@ -167,7 +167,6 @@ app.post('/upload', upload.single('image'), async (req, res) => {
 const PORT = process.env.PORT || 3035;
 server.listen(PORT, '0.0.0.0', () => {
     console.log(`Server running on http://0.0.0.0:${PORT}`);
-    console.log(`Quest URL: http://135.125.163.131:${PORT}/upload`);
     console.log(`Diffusion servers: ${DIFFUSION_SERVERS.join(', ')}`);
     console.log(`GAN server: ${GAN_SERVER}`);
 });
